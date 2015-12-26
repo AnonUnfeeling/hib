@@ -10,6 +10,7 @@ public class HibernateUnit {
     private static SessionFactory buildSessionFactory() {
         return new AnnotationConfiguration().configure().buildSessionFactory();
     }
+    //
 
     public static SessionFactory getSessionFactory(){
         return sessionFactory;
